@@ -1,0 +1,78 @@
+*{
+background-color :#fc9700;
+        }
+        h1{
+            color :#ffffff;
+            font:100;
+        }
+
+        h3{
+            color : #ffffff;
+        }
+        ul{
+            color :#ffffff;
+        }
+        h2{
+            color : #ffffff;
+        }
+        ol{
+            color :#ffffff;
+        }
+
+        .Facts {
+            border : solid;
+            border-color: #00ffff;
+            border-width: 0.7ch;
+            display: flex;
+            justify-content: space-around;
+        }
+        .Video {
+            border : solid;
+            border-color: #00ffff;
+            border-width: 0.5ch;
+            display: flex;
+            justify-content: space-around;
+        }
+        .Images {
+            border : solid;
+            border-color: #00ff00;
+            border-width: 1ch;
+            display: flex;
+            justify-content: space-around;
+
+        }
+        .Watch {
+            border : solid;
+            border-color : #00ff00;
+            border-width: 0.3ch;
+            display: flex;
+            justify-content: space-around; 
+        }
+        .About {
+            border : solid;
+            border-color : #00ff00;
+            border-width: 0.3ch;
+            display: flex;
+            justify-content: space-around; 
+        }
+        .Follow {
+            border : solid;
+            border-color : #00ff00;
+            border-width: 0.3ch;
+            display: flex;
+            justify-content: space-around; 
+        }
+        .Images p {
+            position : absolute;
+            top : 50%;
+            left : 50%;
+            transform : translate(-50%,-50%);
+            opacity : 1;
+        }
+        .Images :hover p {
+            opacity : 0;
+        }
+        .Images :hover img {
+            opacity : 0.33;
+        }
+        
